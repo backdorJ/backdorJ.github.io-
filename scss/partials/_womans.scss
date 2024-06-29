@@ -1,0 +1,49 @@
+.woman-fashion {
+    margin-bottom: 111px;
+    .woman-title { 
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .woman-desc {
+        text-align: center;
+        font-weight: normal;
+        font-size: 15px;
+        margin-bottom: 65px;
+    }
+
+    &-img-block {
+        display: flex;
+        .woman-card {
+            margin-left: 22px;
+            min-width: 270px;
+            min-height: 484px;
+
+            .card-header {
+                margin-bottom: 38px;
+            }
+
+            .card-footer {
+                .card-pre-title {
+                    font-weight: normal;
+                    font-size: 15px;
+                }
+
+                .card-titile {
+                    font-size: 15px;
+                }
+
+                .card-del-price {
+                    font-size: 15px;
+                    margin-right: 20px;
+                }
+
+                .card-cur-price {
+                    font-size: 15px;
+                    color: $bloody-color;
+                }
+            }
+        }
+    }
+}

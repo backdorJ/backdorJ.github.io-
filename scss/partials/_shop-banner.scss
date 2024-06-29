@@ -1,0 +1,34 @@
+.shop-banner {
+    min-width: 1600px;
+    min-height: 745px;
+
+    position: relative;
+
+    background-image: url(/img/shop-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .container {
+        position: relative;
+    }
+    .shop-block {
+        position: absolute;
+        left: 0;
+        bottom: -620px;
+
+        h5 {
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        h2 {
+            font-size: 80px;
+            font-weight: bold;
+        }
+
+        a {
+            padding: 4px 25px 4px 25px;
+            background-color: $black-color;
+        }
+    }
+}
